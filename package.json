@@ -4,13 +4,14 @@
   "description": "Custom rules for HTML validation based on linthtml",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "linthtml fixture/*.html --config .linthtmlrc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@linthtml/dom-utils": "0.10.0"
+    "@linthtml/dom-utils": "0.10.0",
+    "@linthtml/linthtml": "0.10.1"
   }
 }

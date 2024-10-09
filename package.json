@@ -1,0 +1,16 @@
+{
+  "name": "linthtml-rules-expa",
+  "version": "0.0.1",
+  "description": "Custom rules for HTML validation based on linthtml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@linthtml/dom-utils": "0.10.0"
+  }
+}

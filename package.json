@@ -1,17 +1,17 @@
 {
   "name": "linthtml-rules-expa",
-  "version": "0.0.1",
-  "description": "Custom rules for HTML validation based on linthtml",
+  "version": "1.0.0",
+  "description": "Custom rules for Linthtml",
   "main": "index.js",
-  "scripts": {
-    "lint": "linthtml fixture/*.html --config .linthtmlrc"
-  },
+  "repository": "nikolai-shabalin/linthtml-rules-expa",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
-    "@linthtml/dom-utils": "0.10.0",
-    "@linthtml/linthtml": "0.10.1"
+    "@linthtml/dom-utils": "0.10.0"
   }
 }
